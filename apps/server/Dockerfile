@@ -1,5 +1,5 @@
 # gateway image — Bun runtime. build context is the repo root (see fly.toml).
-FROM oven/bun:1 AS base
+FROM oven/bun:1.4.4 AS base
 WORKDIR /app
 
 # workspace manifests first for cached installs
